@@ -22,7 +22,7 @@ body {
 
 .jumbotron {
     padding: 70px 30px;
-    margin: a auto;
+    margin: 0 auto;
     background-color: #9575CD;
     color: floralwhite;
 }
