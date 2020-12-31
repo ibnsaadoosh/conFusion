@@ -2,16 +2,16 @@
 <html lang="en">
 
 <head>
+    <!-- build:css css/main.css -->
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- Bootstrap Social -->
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-    <!-- Fontawesome v5 -->
-    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
     <!-- Fontawesome v4 -->
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/dist/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- endbuild -->
     <title>Ristorante Con Fusion: About Us</title>
 
 </head>
@@ -285,10 +285,13 @@
             </div>
         </div>
     </footer>
-<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-<script src="node_modules/popper.js/dist/umd/poppor.min.js"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="js/scripts.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->    
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script></body>
+    <!-- endbuild -->
 </body>
 
 </html>
